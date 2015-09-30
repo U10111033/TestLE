@@ -7,17 +7,17 @@ public class TestLE{
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Enter the coefficient 'a' of variable X in the first equation.");
-		double a = input.nextDouble();
+		int a = input.nextInt();
 		System.out.println("Enter the coefficient 'b' of variable Y in the first equation.");
-		double b = input.nextDouble();
+		int b = input.nextInt();
 		System.out.println("Enter the constant 'e' in the first equation.");
-		double e = input.nextDouble();
+		int e = input.nextInt();
 		System.out.println("Enter the coefficient 'c' of variable X in the second equation.");
-		double c = input.nextDouble();
+		int c = input.nextInt();
 		System.out.println("Enter the coefficient 'd' of variable Y in the second equation.");
-		double d = input.nextDouble();
+		int d = input.nextInt();
 		System.out.println("Enter the constant 'f' in the second equation.");
-		double f = input.nextDouble();
+		int f = input.nextInt();
 		
 		LinearEquation myLE = new LinearEquation(a, b, c, d, e, f);
 		
